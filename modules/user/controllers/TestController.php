@@ -16,4 +16,9 @@ class TestController extends Controller
 
         pd(\Yii::$app->request->get());
     }
+
+    public function test()
+    {
+        echo 233333;
+    }
 }
