@@ -17,15 +17,7 @@ class UserController extends Controller
 {
     public function actionIndex()
     {
-        $encryptingParameters = http_build_query([
-            'publish_theme_id' => 77,
-            'id'               => 67,
-        ]);
-        $encryptingParameters = (new Encrypt())->desEncrypt($encryptingParameters);
-        $aa = urlencode($encryptingParameters);
-        $bb = urldecode($aa);
-        $cc = (new Encrypt())->desDecrypt($bb);
-        pd($aa,$bb,$cc);
+
     }
 
     /**
