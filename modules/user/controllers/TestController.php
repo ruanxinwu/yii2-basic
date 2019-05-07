@@ -13,7 +13,7 @@ class TestController extends Controller
 {
     public function actionTest()
     {
-
+        echo '23233';
         pd(\Yii::$app->request->get());
     }
 }

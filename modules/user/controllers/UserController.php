@@ -17,7 +17,7 @@ class UserController extends Controller
 {
     public function actionIndex()
     {
-        echo 'ruanx3inwu';
+        echo 'ruanxinwu';
     }
 
     /**
@@ -25,18 +25,7 @@ class UserController extends Controller
      */
     public function actionLogin()
     {
-        $dems = 233;
-        pd($dems);
-       //pd_var(\Yii::$app->user->isGuest);
-        $model                      = new LoginForm();
-        $params                     = [];
-        $params[$model->formName()]['email'] = \Yii::$app->request->post('name', '');
-        $params[$model->formName()]['pwd'] = \Yii::$app->request->post('passwd', '');
-        if ($model->load($params) && $model->login()){
-            pd_var(1,\Yii::$app->user->isGuest);
-        }
 
-        pd('login fail');
     }
 
     public function actionLogOut()
