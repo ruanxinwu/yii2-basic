@@ -17,7 +17,7 @@ class UserController extends Controller
 {
     public function actionIndex()
     {
-        echo 'ruanxinwu' . 'sdddd' . 'sdsdd';
+        echo 'ruanxinwu' . 'sdddd' . 'sdsdddd  ';
     }
 
     /**
