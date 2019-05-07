@@ -18,6 +18,7 @@ class UserController extends Controller
     public function actionIndex()
     {
         echo 'ruanx3inwu';
+        echo 'test1';
     }
 
     /**
